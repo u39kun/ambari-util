@@ -6,6 +6,7 @@ tar zxvf $AMBARI_DIR/ambari-server/target/ambari-server*.tar.gz
 cd $AMBARI_DIR/ambari-server/target/ambari-server*SNAPSHOT
 cp $AMBARI_UTIL_DIR/ambari.properties etc/ambari-server/conf
 cp $AMBARI_UTIL_DIR/log4j.properties etc/ambari-server/conf
+cp $AMBARI_UTIL_DIR/version var/lib/ambari-server/resources
 
 rm -rf web
 ln -s $AMBARI_DIR/ambari-web/public web
