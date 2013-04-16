@@ -14,8 +14,5 @@ ln -s $AMBARI_DIR/ambari-web/public web
 # allow ambari-web development directly from the host
 # ln -s /host/ambari-web/public web
 
-# hack to enable upgrade testing until HDP 1.3 repo is ready
-cp /root/ambari-util/metainfo.xml var/lib/ambari-server/resources/stacks/HDP/1.2.2
-
 # start the server
 java -cp etc/ambari-server/conf/:lib/ambari-server/* org.apache.ambari.server.controller.AmbariServer 
