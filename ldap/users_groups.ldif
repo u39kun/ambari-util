@@ -422,3 +422,35 @@ shadowMax: 99999
 shadowMin: 0
 shadowWarning: 7
 userPassword: hbase
+
+dn: uid=ambari-server,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: ambari-server
+gidNumber: 530
+homeDirectory: /home/ambari-server
+sn: ambari-server
+uid: ambari-server
+uidNumber: 530
+displayName: ambari-server
+gecos: ambari-server
+givenName: ambari-server
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: ambari-server
+
+dn: cn=ambari-server,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: ambari-server
+gidNumber: 530
+memberUid: ambari-server
