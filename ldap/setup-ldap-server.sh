@@ -2,6 +2,7 @@ yum clean all
 
 yum install openldap-servers openldap-clients sssd perl-LDAP.noarch nss-pam-ldapd -y
 
+LDAP_SERVER=localhost
 CWD=`pwd`
 
 cp /usr/share/openldap-servers/DB_CONFIG.example /var/lib/ldap/DB_CONFIG
@@ -193,7 +194,7 @@ BASE dc=apache,dc=org
 TLS_CACERTDIR /etc/openldap/certs
 EOFDELIM
 
-sed -i "s/LDAP_SERVER/$1/" /etc/openldap/ldap.conf
+sed -i "s/LDAP_SERVER/$LDAP_SERVER/" /etc/openldap/ldap.conf
 
 cat > /etc/nslcd.conf << EOFDELIM
 uri ldap://LDAP_SERVER:389
@@ -202,7 +203,7 @@ ssl no
 tls_cacertdir /etc/openldap/cacerts
 EOFDELIM
 
-sed -i "s/LDAP_SERVER/$1/" /etc/nslcd.conf
+sed -i "s/LDAP_SERVER/$LDAP_SERVER/" /etc/nslcd.conf
 
 cat > /etc/pam_ldap.conf << EOFDELIM
 uri ldap://LDAP_SERVER:389
@@ -212,7 +213,7 @@ tls_cacertdir /etc/openldap/cacerts
 pam_password md5
 EOFDELIM
 
-sed -i "s/LDAP_SERVER/$1/" /etc/pam_ldap.conf
+sed -i "s/LDAP_SERVER/$LDAP_SERVER/" /etc/pam_ldap.conf
 
 cat > /etc/pam.d/system-auth << EOFDELIM
 #%PAM-1.0
