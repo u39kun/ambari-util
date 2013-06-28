@@ -310,6 +310,7 @@ USEMD5=yes
 EOFDELIM
 
 chkconfig nslcd on
-service iptables stop
+
+chkconfig iptables off
 
 echo 'Reboot the server by running: shutdown -r now'

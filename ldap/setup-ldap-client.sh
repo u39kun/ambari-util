@@ -124,4 +124,6 @@ USEMD5=yes
 EOFDELIM
 
 chkconfig nslcd on
-#shutdown -r now
+
+echo 'Reboot the server by running: shutdown -r now'
+
