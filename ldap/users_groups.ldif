@@ -1,0 +1,424 @@
+dn: uid=oozie,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: oozie
+gidNumber: 522
+homeDirectory: /home/oozie
+sn: oozie
+uid: oozie
+uidNumber: 520
+displayName: oozie
+gecos: oozie
+givenName: oozie
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: oozie
+
+
+dn: cn=hadoop,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: posixGroup
+objectClass: top
+cn: hadoop
+gidNumber: 522
+memberUid: hadoop
+memberUid: hcat
+memberUid: hive
+memberUid: hdfs
+memberUid: hbase
+memberUid: mapred
+memberUid: yarn
+memberUid: oozie
+memberUid: ambari-qa
+
+
+dn: cn=yarn,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: yarn
+gidNumber: 515
+memberUid: yarn
+
+
+dn: cn=admin,dc=apache,dc=org
+objectClass: top
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+userPassword: admin
+
+
+dn: cn=hbase,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: hbase
+gidNumber: 517
+memberUid: hbase
+
+
+dn: uid=hdfs,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: hdfs
+gidNumber: 522
+homeDirectory: /home/hdfs
+sn: hdfs
+uid: hdfs
+uidNumber: 513
+displayName: hdfs
+gecos: hdfs
+givenName: hdfs
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: hdfs
+
+
+dn: cn=sqoop,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: sqoop
+gidNumber: 521
+memberUid: sqoop
+
+
+dn: cn=users,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: posixGroup
+objectClass: top
+cn: users
+gidNumber: 600
+memberUid: hive
+memberUid: hcat
+memberUid: oozie
+
+
+dn: cn=oozie,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: oozie
+gidNumber: 520
+memberUid: oozie
+
+
+dn: uid=yarn,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: yarn
+gidNumber: 522
+homeDirectory: /home/yarn
+sn: yarn
+uid: yarn
+uidNumber: 515
+displayName: yarn
+gecos: yarn
+givenName: yarn
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: yarn
+
+
+dn: cn=hdfs,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: hdfs
+gidNumber: 513
+memberUid: hdfs
+
+
+dn: uid=hcat,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: hcat
+gidNumber: 522
+homeDirectory: /home/hcat
+sn: hcat
+uid: hcat
+uidNumber: 519
+displayName: hcat
+gecos: hcat
+givenName: hcat
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: hcat
+
+
+dn: cn=mapred,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: mapred
+gidNumber: 514
+memberUid: mapred
+
+
+dn: uid=sqoop,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: sqoop
+gidNumber: 522
+homeDirectory: /home/sqoop
+sn: sqoop
+uid: sqoop
+uidNumber: 521
+displayName: sqoop
+gecos: sqoop
+givenName: sqoop
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: sqoop
+
+
+dn: uid=nagios,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: nagios
+gidNumber: 511
+homeDirectory: /home/nagios
+sn: nagios
+uid: nagios
+uidNumber: 511
+displayName: nagios
+gecos: nagios
+givenName: nagios
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: nagios
+
+
+dn: cn=hive,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: hive
+gidNumber: 518
+memberUid: hive
+
+
+dn: uid=zookeeper,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: zookeeper
+gidNumber: 522
+homeDirectory: /home/zookeeper
+sn: zookeeper
+uid: zookeeper
+uidNumber: 516
+displayName: zookeeper
+gecos: zookeeper
+givenName: zookeeper
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: zookeeper
+
+
+dn: uid=hive,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: hive
+gidNumber: 522
+homeDirectory: /home/hive
+sn: hive
+uid: hive
+uidNumber: 518
+displayName: hive
+gecos: hive
+givenName: hive
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: hive
+
+
+dn: uid=mapred,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: mapred
+gidNumber: 522
+homeDirectory: /home/mapred
+sn: mapred
+uid: mapred
+uidNumber: 514
+displayName: mapred
+gecos: mapred
+givenName: mapred
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: mapred
+
+
+dn: cn=hcat,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: hcat
+gidNumber: 519
+memberUid: hcat
+
+
+dn: uid=ambari-qa,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: ambari-qa
+gidNumber: 522
+homeDirectory: /home/ambari-qa
+sn: ambari-qa
+uid: ambari-qa
+uidNumber: 524
+displayName: ambari-qa
+gecos: ambari-qa
+givenName: ambari-qa
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: ambari-qa
+
+
+dn: cn=nagios,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: nagios
+gidNumber: 511
+memberUid: nagios
+
+
+dn: cn=zookeeper,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: zookeeper
+gidNumber: 516
+memberUid: zookeeper
+
+
+dn: uid=hadoop,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: hadoop
+gidNumber: 522
+homeDirectory: /home/hadoop
+sn: hadoop
+uid: hadoop
+uidNumber: 522
+displayName: hadoop
+gecos: hadoop
+givenName: hadoop
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: hadoop
+
+
+dn: uid=hbase,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: hbase
+gidNumber: 522
+homeDirectory: /home/hbase
+sn: hbase
+uid: hbase
+uidNumber: 517
+displayName: hbase
+gecos: hbase
+givenName: hbase
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: hbase
