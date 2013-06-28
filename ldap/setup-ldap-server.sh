@@ -158,6 +158,9 @@ EOFDELIM
 
 service slapd start
 
+# artbitary sleep to wait long enough for slapd to make the rest of the script work...
+sleep 5
+
 ldapsearch -h localhost -D "cn=ambari,dc=apache,dc=org" -w yoursecretpassword -b "dc=apache,dc=org" -s sub "objectclass=*"
 
 cat > /etc/openldap/ldap-init.ldif << EOFDELIM
