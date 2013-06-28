@@ -114,7 +114,7 @@ rootpw  {SSHA}ckC+F39YJhds/Rn2TRZqH8Y++7+avorS
 # PPolicy Configuration
 overlay ppolicy
 ppolicy_default "cn=default,ou=policies,dc=apache,dc=org"
-ppolicy_use_lockout.
+ppolicy_use_lockout
 ppolicy_hash_cleartext
 
 # The database directory MUST exist prior to running slapd AND
