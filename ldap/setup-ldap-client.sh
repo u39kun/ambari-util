@@ -1,3 +1,12 @@
+if [ $# -ne 1 ]
+then
+  echo ""
+  echo "Usage: setup-ldap-client.sh <ldap-server-hostname>"
+  echo "Example: setup-ldap-client.sh host123"
+  echo ""
+  exit 1
+fi 
+
 yum clean all
 
 yum install openldap-servers openldap-clients sssd perl-LDAP.noarch nss-pam-ldapd -y
