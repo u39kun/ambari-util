@@ -10,7 +10,7 @@ gidNumber: 522
 homeDirectory: /home/oozie
 sn: oozie
 uid: oozie
-uidNumber: 520
+uidNumber: 1020
 displayName: oozie
 gecos: oozie
 givenName: oozie
@@ -76,7 +76,7 @@ gidNumber: 522
 homeDirectory: /home/hdfs
 sn: hdfs
 uid: hdfs
-uidNumber: 513
+uidNumber: 1013
 displayName: hdfs
 gecos: hdfs
 givenName: hdfs
@@ -128,7 +128,7 @@ gidNumber: 522
 homeDirectory: /home/yarn
 sn: yarn
 uid: yarn
-uidNumber: 515
+uidNumber: 1015
 displayName: yarn
 gecos: yarn
 givenName: yarn
@@ -162,7 +162,7 @@ gidNumber: 522
 homeDirectory: /home/hcat
 sn: hcat
 uid: hcat
-uidNumber: 519
+uidNumber: 1019
 displayName: hcat
 gecos: hcat
 givenName: hcat
@@ -196,7 +196,7 @@ gidNumber: 522
 homeDirectory: /home/sqoop
 sn: sqoop
 uid: sqoop
-uidNumber: 521
+uidNumber: 1021
 displayName: sqoop
 gecos: sqoop
 givenName: sqoop
@@ -222,7 +222,7 @@ gidNumber: 511
 homeDirectory: /home/nagios
 sn: nagios
 uid: nagios
-uidNumber: 511
+uidNumber: 1011
 displayName: nagios
 gecos: nagios
 givenName: nagios
@@ -256,7 +256,7 @@ gidNumber: 522
 homeDirectory: /home/zookeeper
 sn: zookeeper
 uid: zookeeper
-uidNumber: 516
+uidNumber: 1016
 displayName: zookeeper
 gecos: zookeeper
 givenName: zookeeper
@@ -282,7 +282,7 @@ gidNumber: 522
 homeDirectory: /home/hive
 sn: hive
 uid: hive
-uidNumber: 518
+uidNumber: 1018
 displayName: hive
 gecos: hive
 givenName: hive
@@ -308,7 +308,7 @@ gidNumber: 522
 homeDirectory: /home/mapred
 sn: mapred
 uid: mapred
-uidNumber: 514
+uidNumber: 1014
 displayName: mapred
 gecos: mapred
 givenName: mapred
@@ -342,7 +342,7 @@ gidNumber: 522
 homeDirectory: /home/ambari-qa
 sn: ambari-qa
 uid: ambari-qa
-uidNumber: 524
+uidNumber: 1024
 displayName: ambari-qa
 gecos: ambari-qa
 givenName: ambari-qa
@@ -384,7 +384,7 @@ gidNumber: 522
 homeDirectory: /home/hadoop
 sn: hadoop
 uid: hadoop
-uidNumber: 522
+uidNumber: 1022
 displayName: hadoop
 gecos: hadoop
 givenName: hadoop
@@ -410,7 +410,7 @@ gidNumber: 522
 homeDirectory: /home/hbase
 sn: hbase
 uid: hbase
-uidNumber: 517
+uidNumber: 1017
 displayName: hbase
 gecos: hbase
 givenName: hbase
@@ -435,7 +435,7 @@ gidNumber: 530
 homeDirectory: /home/ambari-server
 sn: ambari-server
 uid: ambari-server
-uidNumber: 530
+uidNumber: 1030
 displayName: ambari-server
 gecos: ambari-server
 givenName: ambari-server
