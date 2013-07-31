@@ -9,7 +9,7 @@ fi
 
 yum clean all
 
-yum install openldap-servers openldap-clients sssd perl-LDAP.noarch nss-pam-ldapd -y
+yum install openldap-clients sssd perl-LDAP.noarch nss-pam-ldapd -y
 
 cat > /etc/openldap/ldap.conf << EOFDELIM
 URI ldap://LDAP_SERVER:389
