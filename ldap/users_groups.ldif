@@ -24,6 +24,58 @@ shadowWarning: 7
 userPassword: oozie
 
 
+dn: uid=falcon,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: falcon
+gidNumber: 522
+homeDirectory: /home/falcon
+sn: falcon
+uid: falcon
+uidNumber: 1025
+displayName: falcon
+gecos: falcon
+givenName: falcon
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: falcon
+
+
+dn: uid=storm,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: storm
+gidNumber: 522
+homeDirectory: /home/storm
+sn: storm
+uid: storm
+uidNumber: 1026
+displayName: storm
+gecos: storm
+givenName: storm
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: storm
+
+
 dn: cn=hadoop,ou=groups,ou=dev,dc=apache,dc=org
 objectClass: posixGroup
 objectClass: top
@@ -37,6 +89,8 @@ memberUid: hbase
 memberUid: mapred
 memberUid: yarn
 memberUid: oozie
+memberUid: falcon
+memberUid: storm
 memberUid: ambari-qa
 
 
@@ -106,6 +160,8 @@ gidNumber: 600
 memberUid: hive
 memberUid: hcat
 memberUid: oozie
+memberUid: falcon
+memberUid: storm
 
 
 dn: cn=oozie,ou=groups,ou=dev,dc=apache,dc=org
@@ -114,6 +170,22 @@ objectClass: posixGroup
 cn: oozie
 gidNumber: 520
 memberUid: oozie
+
+
+dn: cn=falcon,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: falcon
+gidNumber: 523
+memberUid: falcon
+
+
+dn: cn=storm,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: storm
+gidNumber: 524
+memberUid: storm
 
 
 dn: uid=yarn,ou=people,ou=dev,dc=apache,dc=org
