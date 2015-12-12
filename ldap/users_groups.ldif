@@ -92,6 +92,10 @@ memberUid: oozie
 memberUid: falcon
 memberUid: storm
 memberUid: ambari-qa
+memberUid: ams
+memberUid: mahout
+memberUid: atlas
+memberUid: tez
 
 
 dn: cn=yarn,ou=groups,ou=dev,dc=apache,dc=org
@@ -162,6 +166,10 @@ memberUid: hcat
 memberUid: oozie
 memberUid: falcon
 memberUid: storm
+memberUid: ams
+memberUid: mahout
+memberUid: atlas
+memberUid: tez
 
 
 dn: cn=oozie,ou=groups,ou=dev,dc=apache,dc=org
@@ -526,3 +534,133 @@ objectClass: posixGroup
 cn: ambari-server
 gidNumber: 530
 memberUid: ambari-server
+
+dn: uid=mahout,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: mahout
+gidNumber: 526
+homeDirectory: /home/mahout
+sn: mahout
+uid: mahout
+uidNumber: 1016
+displayName: mahout
+gecos: mahout
+givenName: mahout
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: mahout
+
+
+dn: cn=mahout,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: mahout
+gidNumber: 526
+memberUid: mahout
+
+
+dn: uid=ams,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: ams
+gidNumber: 527
+homeDirectory: /home/ams
+sn: ams
+uid: ams
+uidNumber: 1016
+displayName: ams
+gecos: ams
+givenName: ams
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: ams
+
+dn: cn=ams,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: ams
+gidNumber: 527
+memberUid: ams
+
+dn: uid=tez,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: tez
+gidNumber: 522
+homeDirectory: /home/tez
+sn: tez
+uid: tez
+uidNumber: 1016
+displayName: tez
+gecos: tez
+givenName: tez
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: tez
+
+dn: cn=tez,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: tez
+gidNumber: 528
+memberUid: tez
+
+dn: uid=atlas,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: atlas
+gidNumber: 522
+homeDirectory: /home/atlas
+sn: atlas
+uid: atlas
+uidNumber: 1026
+displayName: atlas
+gecos: atlas
+givenName: atlas
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: atlas
+
+dn: cn=atlas,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: atlas
+gidNumber: 531
+memberUid: atlas
