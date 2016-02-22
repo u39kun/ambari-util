@@ -559,7 +559,7 @@ gidNumber: 526
 homeDirectory: /home/mahout
 sn: mahout
 uid: mahout
-uidNumber: 1016
+uidNumber: 1027
 displayName: mahout
 gecos: mahout
 givenName: mahout
@@ -593,7 +593,7 @@ gidNumber: 527
 homeDirectory: /home/ams
 sn: ams
 uid: ams
-uidNumber: 1016
+uidNumber: 1028
 displayName: ams
 gecos: ams
 givenName: ams
@@ -625,7 +625,7 @@ gidNumber: 522
 homeDirectory: /home/tez
 sn: tez
 uid: tez
-uidNumber: 1016
+uidNumber: 1032
 displayName: tez
 gecos: tez
 givenName: tez
@@ -657,7 +657,7 @@ gidNumber: 522
 homeDirectory: /home/atlas
 sn: atlas
 uid: atlas
-uidNumber: 1026
+uidNumber: 1029
 displayName: atlas
 gecos: atlas
 givenName: atlas
@@ -689,7 +689,7 @@ gidNumber: 522
 homeDirectory: /home/spark
 sn: spark
 uid: spark
-uidNumber: 1026
+uidNumber: 1035
 displayName: spark
 gecos: spark
 givenName: spark
@@ -721,7 +721,7 @@ gidNumber: 522
 homeDirectory: /home/kafka
 sn: kafka
 uid: kafka
-uidNumber: 1026
+uidNumber: 1036
 displayName: kafka
 gecos: kafka
 givenName: kafka
@@ -753,7 +753,7 @@ gidNumber: 522
 homeDirectory: /home/knox
 sn: knox
 uid: knox
-uidNumber: 1026
+uidNumber: 1031
 displayName: knox
 gecos: knox
 givenName: knox
@@ -785,7 +785,7 @@ gidNumber: 522
 homeDirectory: /home/accumulo
 sn: accumulo
 uid: accumulo
-uidNumber: 1026
+uidNumber: 1037
 displayName: accumulo
 gecos: accumulo
 givenName: accumulo
@@ -817,7 +817,7 @@ gidNumber: 522
 homeDirectory: /home/flume
 sn: flume
 uid: flume
-uidNumber: 1026
+uidNumber: 1033
 displayName: flume
 gecos: flume
 givenName: flume
@@ -849,7 +849,7 @@ gidNumber: 522
 homeDirectory: /home/smoke
 sn: smoke
 uid: smoke
-uidNumber: 1026
+uidNumber: 1034
 displayName: smoke
 gecos: smoke
 givenName: smoke
