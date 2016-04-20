@@ -156,6 +156,9 @@ pwdAllowUserChange: FALSE
 pwdSafeModify: FALSE
 EOFDELIM
 
+# Make sure the user that executes slapd can read the config files
+chgrp -R ldap /etc/openldap
+
 service slapd start
 
 # artbitary sleep to wait long enough for slapd to make the rest of the script work...
