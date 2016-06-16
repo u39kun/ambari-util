@@ -882,7 +882,43 @@ memberUid: serviceopuser
 memberUid: serviceadminuser
 memberUid: viewuser
 
-dn: uid= clusteruser,ou=people,ou=dev,dc=apache,dc=org
+dn: cn=gclusteradminuser,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: gclusteradminuser
+gidNumber: 539
+
+dn: cn=gclusteruser,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: gclusteruser
+gidNumber: 540
+
+dn: cn=gclusteropuser,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: gclusteropuser
+gidNumber: 541
+
+dn: cn=gserviceopuser,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: gserviceopuser
+gidNumber: 542
+
+dn: cn=gserviceadminuser,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: gserviceadminuser
+gidNumber: 543
+
+dn: cn=gviewuser,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: gviewuser
+gidNumber: 544
+
+dn: uid=clusteruser,ou=people,ou=dev,dc=apache,dc=org
 objectClass: top
 objectClass: inetOrgPerson
 objectClass: shadowAccount
