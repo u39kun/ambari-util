@@ -102,6 +102,10 @@ memberUid: kafka
 memberUid: accumulo
 memberUid: spark
 memberUid: smoke
+memberUid: logsearch
+memberUid: infra-solr
+memberUid: livy
+
 
 
 dn: cn=yarn,ou=groups,ou=dev,dc=apache,dc=org
@@ -182,7 +186,9 @@ memberUid: kafka
 memberUid: accumulo
 memberUid: spark
 memberUid: smoke
-
+memberUid: logsearch
+memberUid: infra-solr
+memberUid: livy
 
 dn: cn=oozie,ou=groups,ou=dev,dc=apache,dc=org
 objectClass: top
@@ -676,6 +682,103 @@ objectClass: posixGroup
 cn: atlas
 gidNumber: 531
 memberUid: atlas
+
+dn: uid=logsearch,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: spark
+gidNumber: 522
+homeDirectory: /home/logsearch
+sn: spark
+uid: spark
+uidNumber: 1035
+displayName: logsearch
+gecos: logsearch
+givenName: logsearch
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: logsearch
+
+dn: cn=logsearch,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: logsearch
+gidNumber: 532
+memberUid: logsearch
+
+dn: uid=infra-solr,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: infra-solr
+gidNumber: 522
+homeDirectory: /home/infra-solr
+sn: infra-solr
+uid: infra-solr
+uidNumber: 1035
+displayName: infra-solr
+gecos: infra-solr
+givenName: infra-solr
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: infra-solr
+
+dn: cn=infra-solr,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: infra-solr
+gidNumber: 532
+memberUid: infra-solr
+
+
+n: uid=livy,ou=people,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: person
+objectClass: organizationalPerson
+cn: livy
+gidNumber: 522
+homeDirectory: /home/livy
+sn: livy
+uid: livy
+uidNumber: 1035
+displayName: livy
+gecos: livy
+givenName: livy
+loginShell: /bin/bash
+shadowExpire: -1
+shadowFlag: 0
+shadowLastChange: 15528
+shadowMax: 99999
+shadowMin: 0
+shadowWarning: 7
+userPassword: livy
+
+dn: cn=livy,ou=groups,ou=dev,dc=apache,dc=org
+objectClass: top
+objectClass: posixGroup
+cn: livy
+gidNumber: 532
+memberUid: livy
 
 dn: uid=spark,ou=people,ou=dev,dc=apache,dc=org
 objectClass: top
