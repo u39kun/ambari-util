@@ -748,7 +748,7 @@ gidNumber: 532
 memberUid: infra-solr
 
 
-n: uid=livy,ou=people,ou=dev,dc=apache,dc=org
+dn: uid=livy,ou=people,ou=dev,dc=apache,dc=org
 objectClass: top
 objectClass: inetOrgPerson
 objectClass: shadowAccount
