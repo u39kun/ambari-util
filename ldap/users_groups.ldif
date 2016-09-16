@@ -690,12 +690,12 @@ objectClass: shadowAccount
 objectClass: posixAccount
 objectClass: person
 objectClass: organizationalPerson
-cn: spark
+cn: logsearch
 gidNumber: 522
 homeDirectory: /home/logsearch
-sn: spark
-uid: spark
-uidNumber: 1035
+sn: logsearch
+uid: logsearch
+uidNumber: 1049
 displayName: logsearch
 gecos: logsearch
 givenName: logsearch
@@ -727,7 +727,7 @@ gidNumber: 522
 homeDirectory: /home/infra-solr
 sn: infra-solr
 uid: infra-solr
-uidNumber: 1035
+uidNumber: 1048
 displayName: infra-solr
 gecos: infra-solr
 givenName: infra-solr
@@ -760,7 +760,7 @@ gidNumber: 522
 homeDirectory: /home/livy
 sn: livy
 uid: livy
-uidNumber: 1035
+uidNumber: 1047
 displayName: livy
 gecos: livy
 givenName: livy
